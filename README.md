@@ -10,7 +10,7 @@ Grafana;
 Node Exporter;
 Blackbox Exporter;
 AlertManager.
-Screenshot_1
+
 
 Соберите метрики с https://lms.skillfactory.ru через Blackbox, соберите метрики с вашего сервера через Node Exporter.
 
@@ -21,14 +21,14 @@ Screenshot_1
 нагрузка на процессор (CPU) в %;
 использование памяти (RAM) в %;
 использование диска в %.
-Screenshot_5
+
 
 На lms.skillfactory.ru:
 
 возвращаемый статус-код;
 задержка ответа сайта;
 срок действия сертификата.
-Screenshot_4
+
 
 Добавьте алерты в AlertManager на следующие события:
 изменился статус-код сайта lms.skillfactory.ru;
