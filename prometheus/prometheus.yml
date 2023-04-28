@@ -22,9 +22,7 @@ scrape_configs:
       - targets:
         - https://skillfactory.ru
         - https://lms.skillfactory.ru
-        - https://blog.5flor.ru
         - https://mail.ru
-        - https://ha.5flor.ru
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
